@@ -8,7 +8,7 @@ Config = {
     -- Check languages code below to change the MenuLanguage
     MenuLanguage = 'en',
     -- Set this to true to enable some extra prints
-    DebugDisplay = false,
+    DebugDisplay = true,
     -- Set this to false if you have something else on X, and then just use /e c to cancel emotes.
     EnableXtoCancel = true,
     CancelEmoteKey = 'x', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
@@ -33,7 +33,7 @@ Config = {
     -- You can change the menu position here
     MenuPosition = "right", -- (left, right)
     -- You can enable or disable the Ragdoll keybinding here.
-    RagdollEnabled = false,
+    RagdollEnabled = true,
     RagdollKeybind = 'u', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
     RagdollAsToggle = true,
